@@ -17,7 +17,7 @@ public class Datumsfeld extends JPanel implements ActionListener, FocusListener
 {
 	private static final long serialVersionUID = -2327672863703805466L;
 
-// Datetoken an irgendeine vernünftige Stelle/Klasse schieben
+// Datetoken an irgendeine vern?nftige Stelle/Klasse schieben
 	final String DATETOKEN = ".";
 
 	private Zahlenfeld tag, monat, jahr;

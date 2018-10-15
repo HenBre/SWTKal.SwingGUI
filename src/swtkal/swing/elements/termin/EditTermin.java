@@ -78,7 +78,7 @@ public class EditTermin extends EditEintrag
 		// AllgemeinPanel
 		if (!termin.getBeginn().isCorrectDate())
 		{
-			String text = "Bitte geben Sie ein vollständiges und korrektes Datum fuer den Beginn an!\n";
+			String text = "Bitte geben Sie ein vollst?ndiges und korrektes Datum fuer den Beginn an!\n";
 			len = Math.max(len, text.length());
 			msg += text;
 			count++;
@@ -86,7 +86,7 @@ public class EditTermin extends EditEintrag
 
 		if (!termin.getBeginn().isCorrectTime())
 		{
-			String text = "Bitte geben Sie eine vollständige und korrekte Zeit fuer den Beginn an!\n";
+			String text = "Bitte geben Sie eine vollst?ndige und korrekte Zeit fuer den Beginn an!\n";
 			len = Math.max(len, text.length());
 			msg += text;
 			count++;
@@ -94,7 +94,7 @@ public class EditTermin extends EditEintrag
 
 		if (!termin.getEnde().isCorrectDate())
 		{
-			String text = "Bitte geben Sie ein vollständiges und korrektes Datum fuer das Ende an!\n";
+			String text = "Bitte geben Sie ein vollst?ndiges und korrektes Datum fuer das Ende an!\n";
 			len = Math.max(len, text.length());
 			msg += text;
 			count++;
@@ -102,7 +102,7 @@ public class EditTermin extends EditEintrag
 
 		if (!termin.getEnde().isCorrectTime())
 		{
-			String text = "Bitte geben Sie eine vollständige und korrekte Zeit fuer das Ende an!\n";
+			String text = "Bitte geben Sie eine vollst?ndige und korrekte Zeit fuer das Ende an!\n";
 			len = Math.max(len, text.length());
 			msg += text;
 			count++;
@@ -131,7 +131,7 @@ public class EditTermin extends EditEintrag
 //		{
 //			if (!termin.getSerie().getEnde().isCorrectDate())
 //			{
-//				String text = "Bitte geben Sie ein vollständiges und korrektes Datum für das Serienende an!\n";
+//				String text = "Bitte geben Sie ein vollst?ndiges und korrektes Datum f?r das Serienende an!\n";
 //				len = Math.max(len, text.length());
 //				msg += text;
 //				count++;
@@ -193,7 +193,7 @@ public class EditTermin extends EditEintrag
 //			allgemeinPane.setBeginn();
 //
 //			if (!termin.getBeginn().isCorrectDate()) {
-//				String text = "Bitte geben Sie zuerst ein vollständiges und korrektes Datum\nfuer den Beginn des Termins an!";
+//				String text = "Bitte geben Sie zuerst ein vollst?ndiges und korrektes Datum\nfuer den Beginn des Termins an!";
 //
 //				JTextArea area = new JTextArea(text);
 //				area.setBackground(SystemColor.control);
